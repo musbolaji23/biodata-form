@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post revision form</title>
+    <link rel="stylesheet" href="./pstrev-form.css" />
+</head>
+<body>
+<main class="container">
+    <form action="" method="post" class="form">
+        <div class="form_group">
+            <label for="surname" class="form_group_label">Surname</label>
+            <input 
+            type="text"
+            name= "Surname"
+            id= "Surname"
+            class="Surname"
+            placeholder="Surname"
+            required
+            />
+        </div>
+        <div class="form_group">
+            <label for="First_Name" class="form_group_label">First Name</label>
+            <input 
+            type="text"
+            name= "First_Name"
+            id= "First_Name"
+            class="First_Name"
+            placeholder="First_Name"
+            required
+            />
+        </div>
+        <div class="form_group">
+            <label for="email" class="form_group_label">Email Address</label>
+            <input 
+            type="email"
+            name= "email"
+            id= "email"
+            class="email"
+            placeholder="email"
+            required
+            />
+        </div>
+        <div class="form_group">
+            <label for="tel" class="form_group_label">Telephone</label>
+            <input 
+            type="tel"
+            name= "phone"
+            id= "phone"
+            class="phone"
+            placeholder="phone"
+            required
+            />
+        </div>
+        <div class="form_group">
+            <label for="gender" class="form_group_label">Gender</label>
+           <select name="gender" id="" required>
+               <option value="male">Male</option>
+               <option value="female">Female</option>
+               <option value="prefer_not_to_say">prefer not to say</option>
+        </select>
+        </div>
+        <div class="form_group">
+            <button class="btn-submit">Submit</button>
+        </div>
+    </form>
+</main> 
+</body>
+</html>
